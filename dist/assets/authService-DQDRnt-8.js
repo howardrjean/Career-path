@@ -1,0 +1,1 @@
+async function o(){try{await fetch("/api/auth/logout",{method:"POST",credentials:"include"})}catch(o){console.error("Logout error:",o)}}export{o as logout};
